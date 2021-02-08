@@ -1,8 +1,8 @@
 import oandapyV20
 import oandapyV20.endpoints.transactions as trans
 from pprint import pprint
-accessToken = 'c5aa24460adc142a87e4b1bd339376ed-47f0e6c248fec1c7cdcb8b61fd481330'
-accountID = '101-011-16913927-001'
+accessToken = 'xxxxxxxxxxxxx'
+accountID = 'xxxxxxxxxxxxxxx'
 client = oandapyV20.API(access_token=accessToken)
 params ={"to": 207,"from": 200}
 r = trans.TransactionIDRange(accountID=accountID, params=params)
